@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const MONGODB_URL = "mongodb://127.0.0.1:27017/contactform";
+const MONGODB_URL = "mongodb+srv://taha:taha@cluster0.2tc1lsy.mongodb.net/contactform";
 
 if (!MONGODB_URL) {
     throw new Error(
